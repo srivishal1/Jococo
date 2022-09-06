@@ -19,4 +19,8 @@ public class GreetingController {
             name = name.toUpperCase();
         return new Greeting(counter.incrementAndGet(), String.format(template, name));
     }
+    
+    public void dispalyname() {
+    	System.out.println("this is for tesing purpose");
+    }
 }
